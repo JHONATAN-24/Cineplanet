@@ -1,0 +1,23 @@
+// Películas ficticias para los datos mock
+export const PELICULAS: string[] = [
+  'Horizonte Oscuro',
+  'El Último Portal',
+  'Marea Infinita',
+  'Código Rojo: Misión Lima',
+  'El Guardián del Tiempo',
+  'Sombras en la Luna',
+  'Velocidad Máxima 7',
+  'La Isla de los Secretos',
+  'Dragones del Sur',
+  'Noche Eterna',
+  'El Viaje de Valentina',
+  'Proyecto Génesis',
+  'Babel Reboot',
+  'Tormenta Digital',
+  'El Espejo Roto',
+  'Conquista del Viento',
+  'Galería de Fantasmas',
+  'El Gran Hackeo',
+  'Cielo de Acero',
+  'Amor en Pausa',
+];

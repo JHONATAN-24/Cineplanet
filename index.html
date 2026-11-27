@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+
+    <!-- ── Viewport responsivo ─────────────────────────────
+         width=device-width  → usa el ancho real del dispositivo
+         initial-scale=1     → sin zoom forzado
+         viewport-fit=cover  → respeta el notch en iPhone          -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+
+    <!-- ── Favicon ─────────────────────────────────────────
+         1) logo.jpg en src/assets (alta resolución, si existe)
+         2) favicon.svg como respaldo (siempre disponible)
+         Vite copia los archivos de /public/ a la raíz del build;
+         los de src/assets se referencian con import o con ?url.
+         Para que logo.jpg funcione como favicon lo colocamos
+         también en /public/ — ver instrucción en README.         -->
+    <link rel="icon" type="image/jpeg"       href="/logo.jpg" />
+    <link rel="icon" type="image/svg+xml"    href="/favicon.svg" />
+    <!-- Apple touch icon (pantalla de inicio iOS) -->
+    <link rel="apple-touch-icon"             href="/logo.jpg" />
+
+    <!-- ── Google Fonts ────────────────────────────────── -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- ── Meta SEO / PWA ─────────────────────────────── -->
+    <meta name="description" content="Cineplanet ServiceDesk — Mesa de Servicios ITIL 4 para gestión de cobros no reflejados en venta digital de entradas." />
+    <meta name="theme-color" content="#204D8A" />
+
+    <title>Cineplanet ServiceDesk</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
